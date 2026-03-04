@@ -1,0 +1,42 @@
+project_type: fullstack_web
+tech_stack:
+  frontend: nextjs_react_typescript
+  backend: trpc_prisma
+  database: postgresql
+  styling: tailwind_radix
+  deployment: vercel
+
+conventions:
+  component_style: functional_hooks
+  api_style: trpc_procedures
+  testing: required_for_business_logic
+  error_handling: try_catch_with_logging
+  exports: named_preferred
+
+naming:
+  components: PascalCase
+  functions: camelCase
+  constants: UPPER_SNAKE_CASE
+  types: PascalCase_Type_suffix
+
+structure:
+  app: Next.js App Router
+  components:
+    ui: base_components
+    features: business_components
+    layouts: layout_components
+  hooks: custom_hooks
+  lib: utilities
+  types: typescript_definitions
+
+constraints:
+  - no_direct_dom_manipulation
+  - no_business_logic_in_components
+  - use_zod_for_validation
+  - use_prisma_for_database
+  - wrap_api_calls_in_services
+
+quality:
+  lint: required_before_commit
+  type_check: required_before_commit
+  test_coverage: minimum_60_percent
