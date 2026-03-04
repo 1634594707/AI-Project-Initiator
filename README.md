@@ -205,7 +205,7 @@ Phase 5: Development Roadmap
 
 ### 编辑器配置
 
-- [Cursor 配置示例](./docs/editor-configs/.cursorrules)
+- [TRAE 配置示例](./docs/editor-configs/.trae/.rules.yaml)
 ---
 
 ## 贡献与优化方向
