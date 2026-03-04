@@ -89,19 +89,6 @@ Phase 5: Development Roadmap
 - **`@sheets`**：把估算、里程碑、资源表做成表格
 - **`@pdf`**：把文档导出/合并/水印等
 
-### E. 不推荐默认集成（与“项目启动”目标弱相关）
-
-以下 skills 更偏艺术/品牌/内部沟通等，不建议作为默认依赖；仅在你明确需要时再引用：
-
-- `algorithmic-art`
-- `canvas-design`
-- `brand-guidelines`
-- `internal-comms`
-- `theme-factory`（适合做 Deck/报告统一主题，但与启动流程无强绑定）
-- `frontend-design`（偏“高质量 UI 设计实现”，属于实现阶段能力，不是启动阶段必需）
-
----
-
 ## 推荐的组合用法（按你要的启动深度选）
 
 ### 组合 1：最小启动（只要 PRD/MVP/路线图）
