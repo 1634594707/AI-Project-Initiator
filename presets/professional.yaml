@@ -1,0 +1,32 @@
+# Professional Preset - Comprehensive Project Planning
+# Use when: You want thorough planning with prioritization and collaborative documentation
+
+name: professional
+description: Core workflow + planning tools + documentation collaboration
+skills:
+  - project-init
+  - pm-kit
+  - doc-coauthor
+
+phases:
+  - requirements_clarification
+  - prd_generation
+  - feature_prioritization  # pm-kit
+  - mvp_definition
+  - technical_architecture
+  - development_roadmap
+
+outputs:
+  - docs/PRD.md (co-authored with doc-coauthor)
+  - docs/MVP.md
+  - docs/ARCHITECTURE.md
+  - docs/ROADMAP.md
+  - features_prioritized.csv (pm-kit)
+
+estimated_time: 2-4 hours
+
+recommended_for:
+  - Team projects
+  - Products with multiple stakeholders
+  - Projects requiring clear prioritization
+  - When documentation quality is critical

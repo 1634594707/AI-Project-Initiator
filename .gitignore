@@ -5,6 +5,9 @@ Thumbs.db
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
 
 # Logs
 *.log
@@ -17,9 +20,36 @@ build/
 # Python
 __pycache__/
 *.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
 .venv/
 venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
 
 # Env
 .env
 .env.*
+
+# Generated project docs (user-specific)
+docs/PRD.md
+docs/MVP.md
+docs/ROADMAP.md
+docs/ARCHITECTURE.md
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Office temp files
+~$*.docx
+~$*.pptx
+~$*.xlsx
+

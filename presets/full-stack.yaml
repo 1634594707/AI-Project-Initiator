@@ -1,0 +1,38 @@
+# Full Stack Preset - End-to-End Development Ready
+# Use when: You want to go from idea to testable prototype
+
+name: full-stack
+description: Complete workflow with development tools and testing
+skills:
+  - project-init
+  - pm-kit
+  - doc-coauthor
+  - ux-kit
+  - web-test
+
+phases:
+  - requirements_clarification
+  - prd_generation
+  - feature_prioritization  # pm-kit
+  - mvp_definition
+  - design_system_definition  # ux-kit
+  - technical_architecture
+  - development_roadmap
+  - automated_testing_setup  # web-test
+
+outputs:
+  - docs/PRD.md
+  - docs/MVP.md
+  - docs/ARCHITECTURE.md
+  - docs/ROADMAP.md
+  - docs/DESIGN_SYSTEM.md (ux-kit)
+  - features_prioritized.csv (pm-kit)
+  - tests/ (web-test setup)
+
+estimated_time: 3-6 hours
+
+recommended_for:
+  - Web applications
+  - Projects requiring UI/UX consistency
+  - Teams wanting automated testing from day 1
+  - Rapid prototyping with validation

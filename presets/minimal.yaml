@@ -1,0 +1,22 @@
+# Minimal Preset - Quick Project Initiation
+# Use when: You need a fast project setup with basic documentation
+
+name: minimal
+description: Core project initiation workflow only
+skills:
+  - project-init
+
+phases:
+  - requirements_clarification
+  - prd_generation
+  - mvp_definition
+  - technical_architecture
+  - development_roadmap
+
+outputs:
+  - docs/PRD.md
+  - docs/MVP.md
+  - docs/ARCHITECTURE.md
+  - docs/ROADMAP.md
+
+estimated_time: 1-2 hours
